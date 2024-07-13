@@ -341,10 +341,10 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '盒娘说你不懂大鸡鸡的快乐';
-    if (score <= 99) return '还算可以';
-    if (score <= 149) return '单身多久了？';
-    if (score <= 199) return '晚上来我屋';
+    if (score <= 49) return '再练练？';
+    if (score <= 123) return '还算可以';
+    if (score <= 149) return 'Wow！！！';
+    if (score <= 209) return '您！！！';
     return '人？';
 }
 
@@ -408,7 +408,7 @@ function goRank() {
     }
     window.location.href=link;
 }
-console.log("不修改，好嘛？乱传又有什么用呢？(ˉ▽ˉ；)...")
+console.log("(ˉ▽ˉ；)...")
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false
